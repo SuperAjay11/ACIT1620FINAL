@@ -9,6 +9,8 @@
   --black:       #23262E;
   --blueGray:    #555B6E;
   --romanSilver: #757E95;
+  --purple:      #4B0082;
+  --red:         #800000; 
 }
 
 * {
@@ -27,6 +29,16 @@
   --navLinkColor:   var(--lightCoral);
   --formBG:         var(--lightCoral);
   --formInput:      var(--white);
+}
+
+.dark-theme {
+  --navBg:          var(--purple);
+  --navLinkHoverBg: var(--blueGray);
+  --mainBg:         var(--black);
+  --fontColor:      var(--red);
+  --navLinkColor:   var(--yellow);
+  --formBG:         var(--darkGreen);
+  --formInput:      var(--black);
 }
 
 /* toggle styles begin */
