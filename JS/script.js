@@ -1,7 +1,7 @@
 //declare global variables for script
 let body = document.querySelector('body');
 let DarkMode = document.querySelector("input.toggle");
-
+//changed way i makde this dark mode becuase i got confused and mess up, so i added the if else to make it nice and easy
 DarkMode.addEventListener("click", (e) => {
     if (DarkMode.checked == true){
         body.classList.toggle("dark-theme", true);
@@ -35,3 +35,5 @@ button.addEventListener("click", (e) => {
     message.value = "";
     console.log(service);
 });
+
+//thanks for the class Mr.Lau is was rocky in the begininng but i really enjoyed learning html css and JS I hope to see you again next term

@@ -30,7 +30,7 @@
   --formBG:         var(--lightCoral);
   --formInput:      var(--white);
 }
-
+/*as I said earlier i added new colours to give my page a unique and better design.*/
 .dark-theme {
   --navBg:          var(--purple);
   --navLinkHoverBg: var(--blueGray);
@@ -128,7 +128,7 @@ section {
   align-items: center;
   justify-content: center;
   background: var(--mainBg);
-  /* the calc functin does exactly what you think it does */
+  /* the calc function does exactly what you think it does */
   /* in this case we are calulating the height based on viewport height */
   /* minus the nav height, cool right! */
   height: calc(100vh - var(--navHeight));
