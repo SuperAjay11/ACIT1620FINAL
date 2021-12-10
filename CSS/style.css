@@ -8,7 +8,7 @@
   --white:       #FAF9F9;
   --black:       #23262E;
   --blueGray:    #555B6E;
-  --romanSilver: #757E95;
+  --romanSilver: #757E95;           /*added new colours because i wanted new different ones*/
   --purple:      #4B0082;
   --red:         #800000; 
 }
@@ -200,7 +200,6 @@ input[type=text]:focus {
  color: var(--white);
 }
 
-@media screen and (max-width: 600px) {
-
+@media only screen and (max-width: 600px) {
 
 }
